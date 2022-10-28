@@ -6,4 +6,11 @@ def main(s):
     Returns:
         int: return answer
     """
-    return
+    c= 0
+    i = 0
+    m = len(s)
+    while m:
+        c+=s[i].isalpha()
+        i+=1
+
+    return c
