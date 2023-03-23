@@ -6,12 +6,6 @@ def main(s):
     Returns:
         int: return answer
     """
-    c= 0
-    i = 0
-    m = len(s)-1
-    while m:
-        c+=s[i].isdigit()
-        c+=s[i].isdigit()
-        i+=1
 
-    return m+1-c
+
+    return 
